@@ -104,10 +104,12 @@ section#Welcome header{
         font-size: 18px;
   }
 
-
   section#Fish-Creek-Park ol li{
-    padding: 10px 10px;
+    padding: 13px 0px;
+    font-size: 17px;
   }
+  
+  
 
 
     /*=======================================KOOTENAY AREA======================================= */
@@ -132,6 +134,10 @@ section#Welcome header{
     font-size: 18px;
   }
 
+  section#Kootenay ol li{
+    padding: 13px 0px;
+    font-size: 17px;
+  }
     /*=======================================BRAGG CREEK AREA=======================================*/
     section#Bragg-Creek header{
         background-color: #749df9;
@@ -145,12 +151,19 @@ section#Welcome header{
         text-align: center;
         background-color: #79984b;
         margin-top:3rem;
+        margin-bottom:3rem;
     }
 
     section#Bragg-Creek p{
         padding: 10px 10%;
         font-size: 18px;
     }
+
+    section#Bragg-Creek ol li{
+        padding: 13px 0px;
+        font-size: 17px;
+    }    
+
 
 
     footer{
