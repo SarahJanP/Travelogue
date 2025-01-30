@@ -10,22 +10,33 @@
   body{
     display: flex;
     flex-direction: column;
-    background-color: wheat;
-    gap: 2rem;
-    margin: 5rem 5rem;
-  }
+    background-color: rgb(217, 224, 220);
 
+    margin: 2rem 3rem;
+  }
+/*--------------------------------------HEADER---------------------------------*/
 header{
     text-align: center;
     width: 100%;
+    background-color: #689c6f;
+    color:white;
+    margin-top:0;
+    font-size: 20px;
 }
-  
 
  nav{
     text-align: center;
-
     background-color: antiquewhite;
-    border: 2px solid green;
+    border: 2px solid #689c6f;
+
+  }
+
+  ul{
+    margin: 0;
+    padding: 0.5rem 0px;
+  }
+  ul li{
+    justify-items: center;
   }
   ul li{
     display: inline;
@@ -33,10 +44,26 @@ header{
     padding: 3rem;
     justify-content: space-around;
     text-align: center;
+        text-decoration: none;
+            font-size: 20px;
   }
 
-section#Welcome{
+  ul li a{
+    text-decoration: none;
+  }
+
+  ul li a:hover{
+    background-color:#689c6f ;
+    color:white;
+    border-radius: 3px;
+
+  }
+
+section#Welcome header{
     text-align: center;
+    font-size: 18px;
+    padding:1rem 1rem;
+    margin-bottom: 1rem;
 }
   
 
@@ -44,48 +71,88 @@ section#Welcome{
     text-align: center;
   }
 
-  /*FISH CREEK PARK AREA*/
+
+
+  section img{
+    margin:30px 0px;
+    border-radius: 20px;
+    border-style: groove;
+  }
+
+  /*------------------------------FISH CREEK PARK AREA------------------------------*/
 
     section#Fish-Creek-Park header{
         background-color: #67b4fd8e;
         padding: 1%;
-        color: #515730;
+        color: #31351d;
+        font-size: x-large;
+        border-bottom: solid white;
     }
 
   section#Fish-Creek-Park{
     text-align: center;
     background-color:#5157308f;
-    
+    margin-top: 1rem;
   }  
 
 
   section#Fish-Creek-Park p{
-        color: #67b5fd;
+        padding: 10px 10%;
+        color: #01162b;
+        flex-wrap: wrap;
+        font-size: 18px;
   }
 
 
-    /*KOOTENAY AREA */
+    /*------------------------------KOOTENAY AREA------------------------------ */
     section#Kootenay header{
     background-color: #576845;
+    color:#add8e2;
     padding: 1%;
+    font-size: x-large;
+    border-bottom: solid white;
   }
   section#Kootenay {
     background-color: #83a8b0;
     text-align: center;
+    margin-top:3rem;
   }
 
 
   section#Kootenay p{
     justify-content: flex-end;
+    padding: 10px 10%;
+    font-size: 18px;
   }
 
-    /*BRAGG CREEK AREA*/
+    /*------------------------------BRAGG CREEK AREA------------------------------*/
 
     section#Bragg-Creek header{
         background-color: #749df9;
-        padding:1%;
+        color:#1c1f0d;
+        padding: 1%;
+        font-size: x-large;
+        border-bottom: solid white;
+
     }
     section#Bragg-Creek{
         text-align: center;
-        background-color: #576845;
+        background-color: #79984b;
+        margin-top:3rem;
+    }
+
+    section#Bragg-Creek p{
+        padding: 10px 10%;
+        font-size: 18px;
+    }
+
+
+    footer{
+        background-color: rgb(176, 198, 231);
+        text-align: center  ;
+    }
+
+    footer p{
+        padding: 6px 0;
+        margin: 0 0;
     }
