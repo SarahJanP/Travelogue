@@ -20,7 +20,7 @@
     
   }
 
-  
+
   header{
     grid-column: span 2;
     text-align: center;
@@ -44,9 +44,13 @@
   section#Welcome{
     margin-top: 1rem;
     margin: 1rem 8rem;
-
     grid-column: span 2;
+    justify-content: center;
   }
+
+  img{
+    border-radius: 40px;
+    }
 
 
   /*--------FISH CREEK PARK SECTION------*/
@@ -54,7 +58,12 @@
   section#Fish-Creek-Park{
     display:grid;
     grid-column: span 2;
-    gap:1rem;
+    gap:5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section#Fish-Creek-Park img{
     align-items: center;
   }
 
@@ -68,13 +77,30 @@
   }
 
 
+  /*--------Kootenay Section------*/
 
+  section#Kootenay{
+    display:grid;
+    grid-column: span 2;
+    gap:1rem;
+    align-items: center;
 
-
-  img{
-      border-radius: 40px;
-        
-  
   }
+
+  section#Kootenay .image-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#Kootenay .image-content{
+    text-align: center;
+  }
+
+  section#Kootenay p {
+    margin-left: 10%;
+  }
+
+
   
   
