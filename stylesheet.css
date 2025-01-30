@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  main{
+      display:grid;
+
+  
+  }
+
+  body{
+    background-color: wheat;
+  }
+  
+  img{
+      border-radius: 40px;
+  
+  
+  }
+  
+  
