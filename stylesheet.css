@@ -35,21 +35,21 @@ header{
     margin: 0;
     padding: 0.5rem 0px;
   }
-  ul li{
-    justify-items: center;
-  }
+
   ul li{
     display: inline;
     list-style-type: none;
     padding: 3rem;
     justify-content: space-around;
     text-align: center;
-        text-decoration: none;
-            font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+
   }
 
   ul li a{
     text-decoration: none;
+    color:#420618;
   }
 
   ul li a:hover{
@@ -79,7 +79,7 @@ section#Welcome header{
     border-style: groove;
   }
 
-  /*------------------------------FISH CREEK PARK AREA------------------------------*/
+  /*--=======================================FISH CREEK PARK AREA=======================================--*/
 
     section#Fish-Creek-Park header{
         background-color: #67b4fd8e;
@@ -87,6 +87,7 @@ section#Welcome header{
         color: #31351d;
         font-size: x-large;
         border-bottom: solid white;
+        text-shadow: 1px 1px#ffffff8e;
     }
 
   section#Fish-Creek-Park{
@@ -104,13 +105,19 @@ section#Welcome header{
   }
 
 
-    /*------------------------------KOOTENAY AREA------------------------------ */
+  section#Fish-Creek-Park ol li{
+    padding: 10px 10px;
+  }
+
+
+    /*=======================================KOOTENAY AREA======================================= */
     section#Kootenay header{
     background-color: #576845;
     color:#add8e2;
     padding: 1%;
     font-size: x-large;
     border-bottom: solid white;
+    text-shadow: 2px 1px#0000008e;
   }
   section#Kootenay {
     background-color: #83a8b0;
@@ -125,15 +132,14 @@ section#Welcome header{
     font-size: 18px;
   }
 
-    /*------------------------------BRAGG CREEK AREA------------------------------*/
-
+    /*=======================================BRAGG CREEK AREA=======================================*/
     section#Bragg-Creek header{
         background-color: #749df9;
         color:#1c1f0d;
         padding: 1%;
         font-size: x-large;
         border-bottom: solid white;
-
+        text-shadow: 1px 1px#ac00818e;
     }
     section#Bragg-Creek{
         text-align: center;
